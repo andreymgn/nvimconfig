@@ -6,6 +6,7 @@ Plug 'fatih/vim-go'                            " Go support
 Plug 'zchee/deoplete-go', { 'do': 'make'}      " Go auto completion
 Plug 'rust-lang/rust.vim'
 Plug 'racer-rust/vim-racer'
+Plug 'w0rp/ale'
 
 call plug#end()
 
