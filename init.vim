@@ -56,6 +56,3 @@ let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
 
 let g:deoplete#enable_at_startup = 1
-
-let g:racer_cmd = "/home/andrey/.cargo/bin/racer"
-let g:racer_experimental_completer = 1
