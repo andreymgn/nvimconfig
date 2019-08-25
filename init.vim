@@ -11,6 +11,7 @@ Plug 'w0rp/ale'
 call plug#end()
 
 syntax on
+set background=dark
 colorscheme codedark
 set hidden
 
@@ -55,5 +56,6 @@ nnoremap <C-H> <C-W><C-H>
 
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
+nmap <silent> <leader>; :ALENext<cr>
 
 let g:deoplete#enable_at_startup = 1
