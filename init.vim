@@ -7,6 +7,9 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}      " Go auto completion
 Plug 'rust-lang/rust.vim'
 Plug 'racer-rust/vim-racer'
 Plug 'w0rp/ale'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -59,3 +62,4 @@ let g:ale_sign_warning = '⚠'
 nmap <silent> <leader>; :ALENext<cr>
 
 let g:deoplete#enable_at_startup = 1
+let g:airline_theme='simple'
